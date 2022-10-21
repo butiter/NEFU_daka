@@ -6,9 +6,16 @@
 
 ### 使用教程：
 
-- 首先，下载操作系统对应版本的chromedriver。windows系统已附在文件中
+- 首先，下载对应chrome版本的chromedriver，并安装chrome浏览器。
+
+  - chrome浏览器106.0.5249.119对应chromedriver已附在文件中
+  - 其他版本可前往http://chromedriver.storage.googleapis.com/index.html 下载
+  - 顺便一提，版本号不用完全对的上，差不多就行
 
 - 然后，安装selenium库。
+
+  - 笔者所使用的版本是2.48.0。
+  - Python版本是3.8
 
 - 最后，更改代码的如下信息：
 
@@ -23,8 +30,6 @@
 
 - 最最后，点击运行！
   - 本程序会自动在打卡月份的[userinput_begin_day,userinput_end_day]区间内自动打卡。
-
-
 
 - 示例：
 
